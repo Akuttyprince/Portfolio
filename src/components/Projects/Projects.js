@@ -15,20 +15,19 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Creations </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Dive into my latest projects! From web apps to games, these are the ideas I’ve brought to life with code, showcasing my passion for building cool tech that solves problems and sparks joy.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Swetha Login"
+              description="A sleek login system built with HTML, CSS, and JavaScript, designed for secure and user-friendly authentication. Perfect for web apps needing a simple yet effective user access solution."
+              ghLink="https://github.com/Akuttyprince/SWETHA-LOGIN.git"
             />
           </Col>
 
@@ -36,10 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Manoj Windows"
+              description="A creative web-based simulation of a Windows-like interface, crafted with HTML, CSS, and JavaScript. It mimics desktop functionality for a nostalgic and interactive user experience."
+              ghLink="https://github.com/Akuttyprince/manoj_windows.git"
             />
           </Col>
 
@@ -47,10 +45,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Simple Style"
+              description="A stylish web design project using HTML and CSS, focusing on clean aesthetics and responsive layouts. Ideal for creating visually appealing landing pages or portfolios."
+              ghLink="https://github.com/Akuttyprince/SIMPLE_STYLE.git"
             />
           </Col>
 
@@ -58,10 +55,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Simple Game"
+              description="A fun, lightweight browser-based game built with JavaScript and HTML5 Canvas. Designed for quick play sessions with engaging mechanics and smooth performance."
+              ghLink="https://github.com/Akuttyprince/simple_game.git"
             />
           </Col>
 
@@ -69,10 +65,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Poster"
+              description="A dynamic poster generator web app using HTML, CSS, and JavaScript. Create stunning visual designs for events or promotions with customizable templates."
+              ghLink="https://github.com/Akuttyprince/poster_.git"
             />
           </Col>
 
@@ -80,11 +75,79 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Attendance Login 1.0"
+              description="A web-based attendance tracking system with a login interface, built using HTML, CSS, and JavaScript. Simplifies user management and record-keeping for organizations."
+              ghLink="https://github.com/Akuttyprince/Attendence_login_1.o.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Simple Gaming Web"
+              description="An interactive gaming website powered by JavaScript, HTML, and CSS. Features multiple mini-games with vibrant graphics and responsive controls for a fun user experience."
+              ghLink="https://github.com/Akuttyprince/simple_gamming_web.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="To-Do Form"
+              description="A minimalist to-do list app built with React and styled with CSS. Allows users to add, edit, and delete tasks, with local storage for persistent data."
+              ghLink="https://github.com/Akuttyprince/TO--DO--FORM.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Credit 2.0"
+              description="A credit management web app using React and JavaScript, designed to track transactions and balances. Features a clean UI and local storage for data persistence."
+              ghLink="https://github.com/Akuttyprince/credit2.o.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Shop Tracking"
+              description="A shop management system built with React and JavaScript, enabling inventory tracking and sales monitoring. Includes a user-friendly dashboard for small businesses."
+              ghLink="https://github.com/Akuttyprince/shop-tracking.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Chat Bot Bro 2.0"
+              description="An AI-powered chatbot built with JavaScript and Node.js, designed for interactive conversations. Supports basic NLP for answering queries and engaging users."
+              ghLink="https://github.com/Akuttyprince/chat_bot_bro_2.0.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Attend Us"
+              description="An advanced attendance management web app using React and JavaScript. Features user authentication, real-time tracking, and exportable reports for institutions."
+              ghLink="https://github.com/Akuttyprince/Attend-us.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Calculator"
+              description="A responsive web-based calculator built with HTML, CSS, and JavaScript. Supports basic arithmetic operations with a clean, intuitive interface."
+              ghLink="https://github.com/Akuttyprince/calculator.git"
             />
           </Col>
         </Row>
